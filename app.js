@@ -24,7 +24,9 @@ app.get('/api/pets', (req, res) => {
   // Uncomment this line and comment out the other responses:
   // setTimeout(() => {
   //   res.json(getPets())
-  // }, 1000)
+  //   // show up in vscode terminal???
+  //   console.log(getPets())
+  // }, 3000)
 
   // This is how this endpoint SHOULD behave:
   res.json(getPets());

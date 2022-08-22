@@ -56,7 +56,7 @@ describe('Tier 2: PetList component', () => {
     },
   ];
 
-  xit('renders a list of SinglePets', () => {
+  it('renders a list of SinglePets', () => {
     const wrapper = mount(<PetList pets={pets} />);
     expect(wrapper).to.include.text('Rigatoni');
     expect(wrapper).to.include.text('Cody');
